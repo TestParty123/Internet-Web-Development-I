@@ -6,27 +6,63 @@
    Case Problem 3
    
    Design Styles for the Chupacabra Music Fest
-   Author: 
-   Date:   
+   Author: Isaac
+   Date:   10/8/2023
    
    Filename: cf_effects.css
 
 */
 
 /* HTML Styles */
-
-
+html {
+  background-image: url(cf_back1.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 
 /* Body Styles */
-
-
+body {
+  background-color: rgba(255, 255, 255, 0.3);
+}
 
 /* Body Header Styles */
-
-
+body {
+  background-color: rgba(51, 51, 51, 0.5);
+}
 
 /* Aside Styles */
+section aside {
+  border: 10px double rgba(92, 42, 8, 0.3);
+  border-radius: 30px;
+}
 
+section aside h1 {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
 
+#left aside {
+  perspective: 450px;
+  rotate: 25deg;
+}
+
+#right aside {
+  perspective: 450px;
+  rotate: -25deg;
+}
 
 /* Cube Styles */
+#cube {
+  position: relative;
+  margin: 180px auto 150px;
+  width: 400px;
+  height: 400px;
+  perspective: 450px;
+}
+
+.cube_face {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
